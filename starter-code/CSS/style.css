@@ -1,0 +1,69 @@
+h1, h2, h3 {
+	text-decoration: underline;
+	text-align: center;
+}
+h1{
+	color: rgb(2, 132, 130);
+	font-size: 60px;
+	font-family:"Ruslan Display", cursive;
+}
+h2 {
+	color: #ffd700;
+}
+h3{
+	color:red;
+}
+a{
+	text-decoration: none;
+}
+.board{
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+}
+.card{
+	height: 200px;
+	width: 150px;
+	border: solid black 1px;
+	background-color:yellow;
+	border-radius: 10px;
+	float:left;
+	margin:8%;
+}
+.important{
+	font-size: 17px;
+	font-weight: bolder;
+	color: #C22536;
+}
+.name{
+	color: #ff0000;
+	font-weight: bolder;
+	font-family:'Indie Flower', cursive;
+}
+nav{
+	background-color: #808080;
+}
+nav a{
+    background-color: #ffbf00;
+    color: white;
+    padding:35px;
+    display: block;
+    float: left;
+}
+nav a:hover{
+	background-color: #ee5f3c;
+}
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+footer{
+	background-color: #808080;
+}
+p,header,footer{
+	text-align:center;
+}
