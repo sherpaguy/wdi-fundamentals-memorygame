@@ -35,8 +35,11 @@ a{
 	font-weight: bolder;
 	color: #C22536;
 }
+.heart{
+	color:red;
+}
 .name{
-	color: #ff0000;
+	color: blue;
 	font-weight: bolder;
 	font-family:'Indie Flower', cursive;
 }
